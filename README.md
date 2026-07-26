@@ -24,7 +24,7 @@ meeting room.
   is assumed logged in everywhere.
 - **No real video/audio (WebRTC).** The assignment's core features and
   evaluation criteria only require meeting creation/join/schedule workflows
-  and UI similarity to Zoom — not an actual peer-to-peer video connection.
+  and UI similarity to Zoom -> not an actual peer-to-peer video connection.
   The meeting room is a UI-only shell: mute/camera buttons toggle local
   state only, no real media stream is opened. This kept the 1-day scope
   realistic without cutting any graded feature.
