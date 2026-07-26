@@ -3,10 +3,12 @@
 A functional clone of Zoom's meeting dashboard, join flow, scheduling, and
 meeting room.
 
+Note: Backend is hosted on Render's free tier, which spins down after ~15 minutes of inactivity. The first request after idle may take up to ~50 seconds to respond while the server wakes up (this is expected, not a bug :)).
+
 ## Tech Stack
 
 - **Frontend:** Next.js 14 (App Router) + TypeScript + Tailwind CSS
-- **Backend:** FastAPI (Python) + SQLAlchemy
+- **Backend:** FastAPI (Python) + SQLAlchemy 
 - **Database:** SQLite (file-based, `backend/zoom_clone.db`)
 
 ## Features
