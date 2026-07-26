@@ -1,7 +1,7 @@
 # Zoom Clone
 
 A functional clone of Zoom's meeting dashboard, join flow, scheduling, and
-meeting room — built for the SDE Fullstack Assignment.
+meeting room.
 
 ## Tech Stack
 
